@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="UtkuO&#287;ulcan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 11:14:28 "/>
+        <attribute name="created" value="VXRrdU/En3VsY2FuOyBVVEtVLVBDOyAyMDE5LTEwLTI1OyAxMTowODoxOSA7IDMwNjY="/>
+        <attribute name="edited" value="VXRrdU/En3VsY2FuOyBVVEtVLVBDOyAyMDE5LTEwLTI1OyAxMToxNDoyOCA7IDMwNjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sinav, sinav2, sozlu" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinci s&#305;nav notunu giriniz&quot;"/>
+            <input variable="sinav"/>
+            <output expression="&quot;2.s&#305;nav notunu giriniz&quot;"/>
+            <input variable="sinav2"/>
+            <output expression="&quot;S&#246;zl&#252; notunu giriniz&quot;"/>
+            <input variable="sozlu"/>
+            <if expression="(sinav+sinav2+sozlu)/ 3 &gt;= 50">
+                <then>
+                    <output expression="&quot;Dersi ge&#231;tiniz&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;Dersten kald&#305;n&#305;z&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

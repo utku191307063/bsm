@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="UtkuO&#287;ulcan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 09:40:24 "/>
+        <attribute name="created" value="VXRrdU/En3VsY2FuOyBVVEtVLVBDOyAyMDE5LTEwLTI1OyAwOTozNToxMCA7IDMwNjQ="/>
+        <attribute name="edited" value="VXRrdU/En3VsY2FuOyBVVEtVLVBDOyAyMDE5LTEwLTI1OyAwOTo0MDoyNCA7IDMwNjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sicaklik" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bir s&#305;cakl&#305;k giriniz&quot;"/>
+            <input variable="sicaklik"/>
+            <if expression="sicaklik&gt;100">
+                <then>
+                    <output expression="&quot;Su gaz haldedir&quot;"/>
+                </then>
+                <else>
+                    <if expression="sicaklik&lt;=0">
+                        <then>
+                            <output expression="&quot;Su kat&#305; haldedir&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Su s&#305;v&#305; haldedir&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

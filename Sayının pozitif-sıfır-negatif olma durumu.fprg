@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="UtkuO&#287;ulcan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-27 01:25:08 "/>
+        <attribute name="created" value="VXRrdU/En3VsY2FuOyBVVEtVLVBDOyAyMDE5LTEwLTI3OyAwMToyMTo1NSA7IDMwNjI="/>
+        <attribute name="edited" value="VXRrdU/En3VsY2FuOyBVVEtVLVBDOyAyMDE5LTEwLTI3OyAwMToyNTowOCA7IDMwNjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <output expression="&quot;Say&#305; giriniz&quot;"/>
+            <input variable="sayi"/>
+            <if expression="sayi&gt;0">
+                <then>
+                    <output expression="&quot;Say&#305; pozitiftir&quot;"/>
+                </then>
+                <else>
+                    <if expression="sayi=0">
+                        <then>
+                            <output expression="&quot;Say&#305; 0'd&#305;r&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Say&#305; negatiftir&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
